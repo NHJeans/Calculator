@@ -1,0 +1,17 @@
+C:\Users\Administrator\Documents\현재CSharp\calcApp\bin\Debug\net5.0-windows\calcApp.exe
+C:\Users\Administrator\Documents\현재CSharp\calcApp\bin\Debug\net5.0-windows\calcApp.deps.json
+C:\Users\Administrator\Documents\현재CSharp\calcApp\bin\Debug\net5.0-windows\calcApp.runtimeconfig.json
+C:\Users\Administrator\Documents\현재CSharp\calcApp\bin\Debug\net5.0-windows\calcApp.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\현재CSharp\calcApp\bin\Debug\net5.0-windows\calcApp.dll
+C:\Users\Administrator\Documents\현재CSharp\calcApp\bin\Debug\net5.0-windows\ref\calcApp.dll
+C:\Users\Administrator\Documents\현재CSharp\calcApp\bin\Debug\net5.0-windows\calcApp.pdb
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.Form1.resources
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.dll
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\ref\calcApp.dll
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.pdb
+C:\Users\Administrator\Documents\현재CSharp\calcApp\obj\Debug\net5.0-windows\calcApp.genruntimeconfig.cache
