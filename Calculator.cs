@@ -67,27 +67,30 @@ namespace calcApp
             if (isNewNum == false)
             {
                 int num = int.Parse(NumDisplay.Text);
-                if (Opt == Operators.Add)
-                    Result = Add(Result, num);
-                else if (Opt == Operators.Sub)
-                    Result = Sub(Result, num);
-                else if (Opt == Operators.Multi)
-                    Result = Multi(Result, num);
-                else if (Opt == Operators.Div)
-                    Result = Div(Result, num);
+                // switch 문을 사용하여 연산 수행
+                Result = Opt switch
+                {
+                    Operators.Add => Add(Result, num),
+                    Operators.Sub => Sub(Result, num),
+                    Operators.Multi => Multi(Result, num),
+                    Operators.Div => Div(Result, num),
+                    _ => Result
+                };
 
                 NumDisplay.Text = Result.ToString();
                 isNewNum = true;
             }
+
             Button optButton = (Button)sender;
-            if (optButton.Text == "+")
-                Opt = Operators.Add;
-            else if (optButton.Text == "-")
-                Opt = Operators.Sub;
-            else if (optButton.Text == "×")
-                Opt = Operators.Multi;
-            else if (optButton.Text == "÷")
-                Opt = Operators.Div;
+            // switch 식을 사용하여 연산자 설정
+            Opt = optButton.Text switch
+            {
+                "+" => Operators.Add,
+                "-" => Operators.Sub,
+                "×" => Operators.Multi,
+                "÷" => Operators.Div,
+                _ => Opt
+            };
         }
         private void NumClear_Click(object sender, EventArgs e)
         {
@@ -96,6 +99,17 @@ namespace calcApp
             Opt = Operators.Add;
 
             NumDisplay.Text = "0";
+        }
+        private string GetOperatorSymbol(Operators opt)
+        {
+            return opt switch
+            {
+                Operators.Add => "+",
+                Operators.Sub => "-",
+                Operators.Multi => "×",
+                Operators.Div => "÷",
+                _ => ""
+            };
         }
     }
 }
